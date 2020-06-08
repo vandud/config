@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu # in cron
+
+
+pacman -Syu firefox telegram-desktop bash-completion bind-tools

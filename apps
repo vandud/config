@@ -3,4 +3,4 @@
 # sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu # in cron
 
 
-pacman -Syu firefox telegram-desktop bash-completion bind-tools pulseaudio pulseaudio-alsa pavucontrol alsa-utils manjaro-alsa openssh vim vi sudo iwd dhclient
+pacman -Syu firefox telegram-desktop bash-completion bind-tools pulseaudio pulseaudio-alsa pavucontrol alsa-utils manjaro-alsa openssh vim vi sudo iwd dhclient wget xorg-server nvidia

@@ -142,4 +142,4 @@ ex ()
 }
 
 setxkbmap -option "caps:swapescape"
-
+export PATH="$PATH:~/.bin"

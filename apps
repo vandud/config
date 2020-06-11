@@ -37,4 +37,5 @@ pacman -Syu \
     whois \
     lightdm \
     accountsservice \
+    imagemagick \
 

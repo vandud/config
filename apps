@@ -36,3 +36,5 @@ pacman -Syu \
     git \
     whois \
     lightdm \
+    accountsservice \
+

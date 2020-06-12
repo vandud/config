@@ -1,4 +1,4 @@
-exec setxkbmap -layout us,ru -variant dvorak, -option grp:win_space_toggle
+exec setxkbmap -layout us,ru -variant dvorak, -option "grp:win_space_toggle" -option "caps:swapescape"
 
 
 # i3 config file (v4)

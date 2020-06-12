@@ -30,7 +30,6 @@ pacman -Syu \
     xorg-xinit \
     rxvt-unicode \
     scrot \
-    dmenu \
     openvpn \
     xterm \
     git \

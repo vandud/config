@@ -30,13 +30,13 @@ font xft:URWGothic-Book 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xterm
+bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec --no-startup-id dmenu_recency -m 1 -y 600 -x 500 -w 1560 -l 10 -fn 'Monospace-20:normal'
 
 
 bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
